@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="classwork1.css">
+    <style>
+      
+        </style>
+</head>
+<body>
+    
+
+    
+    <form action="/submit-form" method="POST" target="_blank">
+   <fieldset class="fieldset">
+    <div id="grad1"></div>
+    <legend class="legend"><h1>Survey Form</h1></legend> 
+    <div>
+        
+<!-- <h2>Dropdown Image</h2>
+<p>Move the mouse over the image below to open the dropdown content.</p> -->
+<div align="right" >
+<div class="dropdown" >
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEV/O7j///9dJ4l3KLTczut9OLd6MbZ/NrmyjdO0ktT8+v2NU8B4N69bJobi1+55LbWDQbr17/nGrd9SCoKZfLWdgbf59fzJseCogM7v5/aFRrvBptzPuuSdbsh1IbO/otuVY8ORWcGthtDg0e2LTb6jib3w6fejeMtrFqe6mtida8jXxei2ltXXw+iVX8OMUb+HaPx5AAAEl0lEQVR4nO3de1vaPBgG8LKQFPB9SWEbAqWAwnDzML//t1vVOVLw2pM2Iafd959eqe3PPD03MetpZrTbVPsiu1zEN91NaZdMr9msLJjg/ILALPv81aNwVcjL6l7y6TJELeGcXd5XCz99/uJHOKqkA9+L8CK9qCG8cwN8EV6CSAtL5gb4KrxAoZLCw9oR8E1on0gK74RbofVCpYQLRzvhUWibSAk37oWWC5USbnP3QrtEQjgpXJzrT4VWC5UQLlydKppCm0RCOPYktFiohLDvS2ivF4MVWiOGK7RVqAELLRFDFtop1KCFVohhC20UauBCC8TQheaFGrzQuBfDF5oSIxAaFmoMQjNiFEKjQo1DaEKMRGhQqLEIuxOjEXYu1HiEXYkRCTsWakzCbr0YlbATMS5hl0KNTNiBGJuwfaFGJ2xNjE/YtlAjFLYkxihsV6hRClv1YpzCNsRIhS0KNVahPjFaoXahxivUJUYs1CzUmIV6xKiFWoUat1CnFyMXahADEv7fKWShBiT8r1u+76IRdgzrQwhh6IEQQgj9B0IIIfQfCCGE0H8ghBBC/4EQQgj9B0IIIfQfCO0IuVwztj6bSyo3jsaMDk6E4nk16/UOZd6YRIMXs7//co1c0xOPuBDK+e/WkxuVyIuJsXAahFBUf5pPlkpZJSRcHNuvlC1KRphXSvtZduzEZITih7rAzwSFcqoucH881iQjFEN1gasE+5DfKO0XytxnyQgz+XBsP0xSqEj68uOfRy6sr0rHb62vGzMQ2hAGctWWcVZd7/rlzUnjoj82zSM9p6Gju6dcMibObgSYcTQmbcT9IYQQ+g+EEELoPxBCCKH/QAghhO/JhTif21wYR2O+dDdCkVW3t1t5uj23A8MM72miE+H68fWJzKJqtE7o7dp69d58kOazNrk5tlerKhkhXyrFuEvx7ZqYqwssE3xvIUt1gS2E7RKEMP0qbRxpxikeaTKpvObepni2qNfx54w/TPOMX6/k/aqtsT0JXbXVR5t8O7i9OrvyHgwN8xjKlXcdLs5frqV09+QzEEIIof9ACCGE/gMhhBD6D4QQagr5h19fymS+vuRse/3wUO5PHjkUTzvTDMP4gjbPfk/OOG10YzpfQfPi8N78Kc1nbUwZjTBIcTRC+iNKxEBdIMVRQc13T/cJCsVGXSDF0Xnpj7DM8tRHyf4DI53TH61e9+L+aTIaHUp5MuPAYWSY+jowDGF96S2e9+zs7/18ZZolPW2Es/tD/sG2cPPQK8YdMIQQ+g+EEELoPxBCCKH/QAghhP4DIYQQ+g+EEELoPxBCCKH/QAghhP4DIYQQ+g+EEELoPxBCCKH/QAhh8sJxBMKxkXARgXDxdwIhnBQaX+l6Dfm9PCFsTN4VZPItIaCEG3o4gN/IDSGghIvghcRuSAp7dxqDjT1G3FEAUnhY06vxmPWBApDC3jTkEwabkttPC3vzcHdFOac3X0M4qkIlympkRVj3IgvxvM+ZRg9qCnur5dn/+vUdLpcresO1hb1ZWTChM87KSTgXrNhozqypKaz3xl1Z7QvfttcU+6rcaeyBb/kFVMarzCzm6LkAAAAASUVORK5CYII=" alt="" width="100" height="100" align="right">
+  <div class="dropdown-content">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEV/O7j///9dJ4l3KLTczut9OLd6MbZ/NrmyjdO0ktT8+v2NU8B4N69bJobi1+55LbWDQbr17/nGrd9SCoKZfLWdgbf59fzJseCogM7v5/aFRrvBptzPuuSdbsh1IbO/otuVY8ORWcGthtDg0e2LTb6jib3w6fejeMtrFqe6mtida8jXxei2ltXXw+iVX8OMUb+HaPx5AAAEl0lEQVR4nO3de1vaPBgG8LKQFPB9SWEbAqWAwnDzML//t1vVOVLw2pM2Iafd959eqe3PPD03MetpZrTbVPsiu1zEN91NaZdMr9msLJjg/ILALPv81aNwVcjL6l7y6TJELeGcXd5XCz99/uJHOKqkA9+L8CK9qCG8cwN8EV6CSAtL5gb4KrxAoZLCw9oR8E1on0gK74RbofVCpYQLRzvhUWibSAk37oWWC5USbnP3QrtEQjgpXJzrT4VWC5UQLlydKppCm0RCOPYktFiohLDvS2ivF4MVWiOGK7RVqAELLRFDFtop1KCFVohhC20UauBCC8TQheaFGrzQuBfDF5oSIxAaFmoMQjNiFEKjQo1DaEKMRGhQqLEIuxOjEXYu1HiEXYkRCTsWakzCbr0YlbATMS5hl0KNTNiBGJuwfaFGJ2xNjE/YtlAjFLYkxihsV6hRClv1YpzCNsRIhS0KNVahPjFaoXahxivUJUYs1CzUmIV6xKiFWoUat1CnFyMXahADEv7fKWShBiT8r1u+76IRdgzrQwhh6IEQQgj9B0IIIfQfCCGE0H8ghBBC/4EQQgj9B0IIIfQfCO0IuVwztj6bSyo3jsaMDk6E4nk16/UOZd6YRIMXs7//co1c0xOPuBDK+e/WkxuVyIuJsXAahFBUf5pPlkpZJSRcHNuvlC1KRphXSvtZduzEZITih7rAzwSFcqoucH881iQjFEN1gasE+5DfKO0XytxnyQgz+XBsP0xSqEj68uOfRy6sr0rHb62vGzMQ2hAGctWWcVZd7/rlzUnjoj82zSM9p6Gju6dcMibObgSYcTQmbcT9IYQQ+g+EEELoPxBCCKH/QAghhO/JhTif21wYR2O+dDdCkVW3t1t5uj23A8MM72miE+H68fWJzKJqtE7o7dp69d58kOazNrk5tlerKhkhXyrFuEvx7ZqYqwssE3xvIUt1gS2E7RKEMP0qbRxpxikeaTKpvObepni2qNfx54w/TPOMX6/k/aqtsT0JXbXVR5t8O7i9OrvyHgwN8xjKlXcdLs5frqV09+QzEEIIof9ACCGE/gMhhBD6D4QQagr5h19fymS+vuRse/3wUO5PHjkUTzvTDMP4gjbPfk/OOG10YzpfQfPi8N78Kc1nbUwZjTBIcTRC+iNKxEBdIMVRQc13T/cJCsVGXSDF0Xnpj7DM8tRHyf4DI53TH61e9+L+aTIaHUp5MuPAYWSY+jowDGF96S2e9+zs7/18ZZolPW2Es/tD/sG2cPPQK8YdMIQQ+g+EEELoPxBCCKH/QAghhP4DIYQQ+g+EEELoPxBCCKH/QAghhP4DIYQQ+g+EEELoPxBCCKH/QAhh8sJxBMKxkXARgXDxdwIhnBQaX+l6Dfm9PCFsTN4VZPItIaCEG3o4gN/IDSGghIvghcRuSAp7dxqDjT1G3FEAUnhY06vxmPWBApDC3jTkEwabkttPC3vzcHdFOac3X0M4qkIlympkRVj3IgvxvM+ZRg9qCnur5dn/+vUdLpcresO1hb1ZWTChM87KSTgXrNhozqypKaz3xl1Z7QvfttcU+6rcaeyBb/kFVMarzCzm6LkAAAAASUVORK5CYII=" alt="" width="300" height="200" >
+  <div class="desc" align="right"></div>
+  </div>
+</div>
+
+<div align="left">
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="enter your name" required><br><br>
+    <label for="email">Email::</label>
+    <input type="text" id="email" placeholder="Enter your email" required ><br><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" min="0" placeholder="Age" required><br><br> 
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="************" requierd> <br><br>
+    <label for="role">Which option best describes your current role?</label>
+    <select>
+        <option value="">Select</option>
+        <option value="Pvtjob">Private Services</option>
+        <option value="govtjob">Government Job</option>
+        <option value="Army">Army Personel</option>
+        <option value="Buisness">Buisness</option>
+        <option value="Unemployed">Unemployed</option>
+     </select><br><br>
+     <label> How Likely is that you would reccomend this course to a friend?</label>
+     <label for="recommend">
+        <input type="radio" name="recommend" value="Definitely">Definitely</label>
+     <label for="recommend">
+        <input type="radio" name="recommend" value="Maybe">Maybe</label>
+     <label for="recommend">
+        <input type="radio" name="recommend" value="Notsure">Not sure</label><br><br>
+        
+        <label for="like"><b>What do you like most in the course?</b></label><br><br>
+        <label for="like">
+            <input type="checkbox" value="frontend">Front End Development
+        </label><br><br>
+        <label for="like">
+            <input type="checkbox" value="backend">Back End Development
+        </label><br><br>
+        <label for="like">
+            <input type="checkbox" value="date">Data Visualisation
+        </label><br><br>
+        <button type="sumbit" >Submit</button>
+                    <button type="reset">Reset form</button>
+</div>
+</fieldset>
+</body>
+</html>
